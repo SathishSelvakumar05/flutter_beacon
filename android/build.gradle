@@ -19,11 +19,11 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 android {
     namespace "com.flutterbeacon"
-    compileSdkVersion 33
+    compileSdkVersion 35
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 33
+        targetSdkVersion 35
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
