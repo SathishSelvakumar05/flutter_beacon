@@ -3,11 +3,13 @@ version '1.0-SNAPSHOT'
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
+        // jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.1'
+         classpath 'com.android.tools.build:gradle:8.3.2'
+        // classpath 'com.android.tools.build:gradle:3.5.1'
     }
 }
 rootProject.allprojects {
